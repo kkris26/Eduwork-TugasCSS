@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  width: 50%;
+}
+
+.login {
+  border-radius: 0.1875rem;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  padding: 1.7rem 2.56rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.56rem;
+}
+.logo img {
+  width: 13rem !important;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+#login-form input {
+  border-radius: 0.1875rem;
+  border: 1px solid #DBDBDB;
+  background: #fafafa;
+  padding: 0.8rem 0.7rem;
+}
+#login-form input:focus{
+    outline: none;
+}
+
+#login-form button {
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.4rem;
+  background-color: #4cb5f9;
+  border: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 6px;
+}
+#login-form button:hover {
+  background-color: rgba(0, 148, 246, 0.5);
+}
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  color: #959595;
+  font-family: Roboto;
+  font-size: 0.7625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+hr {
+  width: 100%;
+  background-color: #d9d9d9;
+  height: 2px;
+  border: none;
+}
+.fb-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+.fb-login .login img {
+  width: 16px;
+}
+.fb-login .login {
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+  border: none;
+  padding: 0;
+  margin-top: 40px;
+}
+.fb-login .login a {
+  color: #1877f2;
+  font-family: Roboto;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.fb-login .forgot-pass a {
+  color: #6B5DAE;
+  font-family: Roboto;
+  font-size: 0.8875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.register {
+  border-radius: 0.1875rem;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4px;
+  margin-top: 12px;
+  padding: 1.5rem 0;
+}
+.register p {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.register a {
+  color: #0095f6;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.get-app {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+  flex-direction: column;
+}
+.get-app p {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.get-app .store {
+  gap: 12px;
+  display: flex;
+}
+.links {
+  width: 900px;
+  margin-top: 50px;
+}
+.links .top-links {
+  display: flex;
+  justify-content: center;
+}
+
+.links .top-links ul {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  justify-content: center;
+  padding: 0;
+}
+
+.links .top-links ul li {
+  list-style-type: none;
+}
+.links .top-links ul li a {
+  color: #959595;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bot-links {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+.bot-links p {
+  color: #959595;
+  font-family: Roboto;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
